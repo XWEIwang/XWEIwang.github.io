@@ -1,0 +1,16 @@
+官方安装教程：http://spinroot.com/spin/Man/README.html#S3
+SPIN及ispin的下载网址：https://github.com/nimble-code/Spin
+解压 ：unzip Spin-master.zip
+sudo apt-get install yacc
+sudo apt-get install tcl
+sudo apt-get install wish
+
+cd Src
+make
+cp spin /usr/local/bin/    (来源：https://blog.csdn.net/jackandsnow/article/details/94434481
+SPIN安装检查 spin-v
+
+
+cd optional_gui
+wish ispin.tcl (启动ispin)
+
